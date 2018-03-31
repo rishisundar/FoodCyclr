@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "859215436658",
+    "firebase_url": "https://foodcyclr.firebaseio.com",
+    "project_id": "foodcyclr",
+    "storage_bucket": "foodcyclr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859215436658:android:1f7c07129f1c1d1d",
+        "android_client_info": {
+          "package_name": "com.food.nofoodwaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859215436658-28c10a7rcne58rrmq0k4qa0n5npc3eki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food.nofoodwaste",
+            "certificate_hash": "2ca3ec699cc7d094f966c9c38758407fe2fc4fab"
+          }
+        },
+        {
+          "client_id": "859215436658-d94q52ec3g309oi1ksuddrjonl6o8eih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz3zIW_7TGVOjC0FEjM-2nF4AHIdee7tM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859215436658-d94q52ec3g309oi1ksuddrjonl6o8eih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

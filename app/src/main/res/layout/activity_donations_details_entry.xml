@@ -1,0 +1,134 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/include_toolbar" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Select Food"
+                android:textColor="@color/primary_text"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/edt_food"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:hint="Enter name of food"
+                android:typeface="serif" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:text="Quantity"
+                    android:textColor="@color/primary_text"
+                    android:typeface="serif"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:text="Phone Number"
+                    android:textColor="@color/primary_text"
+                    android:typeface="serif" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/edt_quantity"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginStart="13dp"
+                    android:ems="10"
+                    android:hint="(e.g. 7, 23)"
+                    android:inputType="number"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/edt_quantity"
+                    android:layout_toRightOf="@+id/edt_quantity"
+                    android:ems="10"
+                    android:hint="Enter phone number"
+                    android:inputType="phone" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Address to pickup"
+                android:textColor="@color/primary_text"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/txt_select_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/view_bg"
+                android:drawableRight="@drawable/ic_location"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="Select the location"
+                android:textColor="@color/primary_text"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/edt_address"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:hint="Enter address to pickup"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btn_donate"
+                style="@style/StyleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Donate" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
